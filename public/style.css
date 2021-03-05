@@ -1,0 +1,12 @@
+.block:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+  body {background-color: rgb(83, 65, 131);}
+  h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 500;
+  }
+.box{
+    background-image: linear-gradient(rgb(192, 192, 127), white);
+}
