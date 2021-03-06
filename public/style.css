@@ -1,0 +1,73 @@
+/* This css formatting is inspired by the Wes Bos's github */
+html {
+    box-sizing: border-box;
+    background: #ADD8E6;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "helvetica neue";
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+}
+input {
+    width: 100%;
+    padding: 25px;
+  }
+  
+.search-form {
+    max-width: 450px;
+    margin: 50px auto;
+  }
+
+input.search {
+      padding:0;
+      margin: 0;
+      outline:0;
+      text-align: center;
+      width: 500px;
+      position: relative;
+      top: 10px;
+      border-radius: 5px;
+      font-size: 30px;
+      margin: 30px;
+    }
+
+.suggestions {
+        margin: 0;
+        padding: 0;
+        position: relative;
+      }
+
+.suggestions li {
+        background:#F4A460;
+        
+        border-bottom: 1px solid #FFF5EE;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.19);
+        margin: 15;
+        padding: 20px;
+        transition: background 0.2s;
+        display: flex;
+        justify-content: space-between;
+        text-transform: capitalize;
+      }
+
+.suggestions li:nth-child(even) {
+        background: linear-gradient(to bottom,  #FFF0F5 0%,#20B2AA 100%);
+      }
+      
+.suggestions li:nth-child(odd) {
+    background: linear-gradient(to bottom,  #FFF0F5 0%,#20B2AA 100%);
+      }
+
+.title {
+        text-transform: uppercase;
+        font-weight: 450;
+        font-family:'RocknRoll One', sans-serif;
+      }
